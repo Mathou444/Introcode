@@ -16,7 +16,7 @@ nav{
 
 nav li {
   margin: 10px;
-  display:inline;
+  display:inline-block;
 }
 
 nav ul {
@@ -51,6 +51,7 @@ a:hover {
   color: rgb(225, 0, 152);
 }
 
+.red {color: red;}
 
 #logo{
   color: rgb(225, 0, 152);
@@ -88,7 +89,7 @@ background-color: #EAEAEA;
   width: 80%;
   background-color:;
   display:flex;
-  flex-wrap: wrap; 
+  flex-wrap:wrap; 
   justify-content: center;
 }
 
